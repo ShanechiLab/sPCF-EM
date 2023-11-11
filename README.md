@@ -1,7 +1,7 @@
 
 # sPCF-EM: Switching Poisson Cubature Filter - Expectation Maximization <br/>
 
-Future home for the new sPCF-EM method for learning parameters for a switching dynamical system with Poisson observations. The Journal of Neural Engineering paper will be out roughly by the end of November 2023. All code and links will be added and updated here.
+Future home for the new sPCF-EM method for learning parameters for a switching dynamical system with Poisson observations. The Journal of Neural Engineering paper will be out roughly by the end of November 2023. All code and links will be added and updated here. Follow https://twitter.com/MaryamShanechi for the announcement.
 
 #
 For details on the work that sPCF-EM builds on (estimating the behavior and regimes of a switching dynamical system with neural data given learned model parameters) see the below publication: 
