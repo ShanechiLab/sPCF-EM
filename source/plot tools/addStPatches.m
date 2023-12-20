@@ -1,5 +1,5 @@
 function addStPatches(t,st,yvals,colors,alpha)
-
+%  Author: Christian Song, June 2023, song.christian.y(at)gmail(dot)com
     if ~exist('alpha','var')
         alpha = 0.5;
     end

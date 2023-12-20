@@ -1,5 +1,5 @@
 function [mdlS,needNewMdl,needToRun,startIter,newIter] = loadModel(pathModel,prmS,nIter)
-    
+%  Author: Christian Song, June 2023, song.christian.y(at)gmail(dot)com
     if ~exist('prmS','var')
         prmS = struct;
     end

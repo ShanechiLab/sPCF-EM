@@ -1,5 +1,6 @@
-function [alphaNew,betaNew] = maximizePoiLikeli(nt,xEst,...
-                    PStEst,KEst,alphaCur,betaCur,optimOpt)
+function [alphaNew,betaNew] = maximizePoiLikeli(nt,xEst,PStEst,KEst,alphaCur,betaCur,optimOpt)
+% MAXIMIZEPOILIKLI M-step update for Poisson parameters
+%  Author: Christian Song, June 2023, song.christian.y(at)gmail(dot)com
     [dimNt,tlen] = size(nt);
     dimXt = size(xEst,1);
     

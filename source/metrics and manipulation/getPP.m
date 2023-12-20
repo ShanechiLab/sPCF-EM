@@ -1,6 +1,6 @@
 
 function [PPavg,PPsep,AUCavg,AUCsep] = getPP(PNtAll,ntAll,field)
-
+%  Author: Christian Song, June 2023, song.christian.y(at)gmail(dot)com
     if ~iscell(PNtAll)
         PNtAll = {PNtAll};
         ntAll = {ntAll};

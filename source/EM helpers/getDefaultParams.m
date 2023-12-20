@@ -1,5 +1,5 @@
 function lrnS = getDefaultParams(dimXtEst,dimStEst)
-
+%  Author: Christian Song, June 2023, song.christian.y(at)gmail(dot)com
     lrnS = struct;
     switch nargin
         case 1

@@ -1,5 +1,5 @@
 function PNew = rescaleDist(PStEst,factor)
-
+%  Author: Christian Song, June 2023, song.christian.y(at)gmail(dot)com
     [dimSt,tlen] = size(PStEst);
     
     if ~exist('factor','var')

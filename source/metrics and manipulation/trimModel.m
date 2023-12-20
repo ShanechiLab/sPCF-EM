@@ -1,4 +1,5 @@
 function newModel = trimModel(mdlS,finInd)
+%  Author: Christian Song, June 2023, song.christian.y(at)gmail(dot)com
     nIter = length(mdlS.thetaCell)-1;
     if ~exist('finInd','var')
         finInd = getFinalCellInd(mdlS.thetaCell) - 1;

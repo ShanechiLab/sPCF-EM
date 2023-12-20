@@ -1,6 +1,6 @@
 
 function xCat = prepXtCat(anaS)
-
+%  Author: Christian Song, June 2023, song.christian.y(at)gmail(dot)com
     if ~isfield(anaS,'stateXt')
         error('need xt to get xCat');
     end

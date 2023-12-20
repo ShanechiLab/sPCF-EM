@@ -1,5 +1,6 @@
 
 function [diff,diffStruct] = getThetaDiff(theta1,theta2)
+%  Author: Christian Song, June 2023, song.christian.y(at)gmail(dot)com
     field1 = fieldnames(theta1);
     field2 = fieldnames(theta2);
     ignoreFields = {};

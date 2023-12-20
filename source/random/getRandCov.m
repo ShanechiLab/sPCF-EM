@@ -1,5 +1,5 @@
 function [sigma,D,eigVecs] = getRandCov(dimXt,param1,param2,paramForm,diagFlag,eigVals)
-    
+%  Author: Christian Song, June 2023, song.christian.y(at)gmail(dot)com
     if ~exist('diagFlag','var'); diagFlag = false; end
     if ~exist('eigVals','var') || isempty(eigVals)
         if ~exist('paramForm','var'); paramForm = 'norm'; end

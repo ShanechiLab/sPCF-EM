@@ -1,6 +1,5 @@
-
 function xCat = catCell(xC)
-
+%  Author: Christian Song, June 2023, song.christian.y(at)gmail(dot)com
     if iscell(xC)
         nC = length(xC);
         totLen = 0;

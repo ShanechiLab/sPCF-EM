@@ -1,5 +1,6 @@
 function [cc,ccs] = averageCorrCoef(xt,zt)
-
+% Calcuclte correlation coefficient across all dimensions, then average
+%  Author: Christian Song, June 2023, song.christian.y(at)gmail(dot)com
     [dims,samps] = size(xt);
     
     ccs = zeros(dims,1);

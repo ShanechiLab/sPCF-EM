@@ -1,4 +1,4 @@
-This software is Copyright © 2020 The University of Southern California. All Rights Reserved.
+This software is Copyright © 2023 The University of Southern California. All Rights Reserved.
 
 Permission to use, copy, modify, and distribute this software and its documentation for educational, research
 and non-profit purposes, without fee, and without a written agreement is hereby granted, provided that the

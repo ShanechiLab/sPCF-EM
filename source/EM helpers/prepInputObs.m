@@ -1,4 +1,5 @@
 function [obsNtAll,ntOut,dimNt] = prepInputObs(trnS,prmS,noCell)
+%  Author: Christian Song, June 2023, song.christian.y(at)gmail(dot)com
     if ~exist('prmS','var')
         prmS = struct;
     end

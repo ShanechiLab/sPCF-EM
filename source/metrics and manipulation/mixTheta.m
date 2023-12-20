@@ -1,5 +1,5 @@
 function thetaMix = mixTheta(thetaOld,thetaNew,pt)
-
+%  Author: Christian Song, June 2023, song.christian.y(at)gmail(dot)com
     thetaMix = thetaNew;
     if pt < 1
         mixFields_cell = {'Acell'};

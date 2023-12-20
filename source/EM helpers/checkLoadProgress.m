@@ -1,4 +1,6 @@
 function [complete,loadFinIter,newIter] = checkLoadProgress(loadMdl,nIter)
+%  Author: Christian Song, June 2023, song.christian.y(at)gmail(dot)com
+
     ldStc = loadMdl.static;
     
     complete = false;

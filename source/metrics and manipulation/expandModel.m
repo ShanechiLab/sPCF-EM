@@ -1,4 +1,5 @@
 function newS = expandModel(mdlS,nIterNew)
+%  Author: Christian Song, June 2023, song.christian.y(at)gmail(dot)com
     nIter = length(mdlS.thetaCell)-1;
 
     if nIter < nIterNew

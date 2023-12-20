@@ -1,5 +1,5 @@
 classdef SumSEM < handle
-    
+%  Author: Christian Song, June 2023, song.christian.y(at)gmail(dot)com
     properties
         xDiffSum
         xAuM1Sum

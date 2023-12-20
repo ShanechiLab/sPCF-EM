@@ -1,4 +1,5 @@
 classdef FuncOrg < handle
+%  Author: Christian Song, June 2023, song.christian.y(at)gmail(dot)com
     properties
         filtSelect
         theta

@@ -1,5 +1,5 @@
 classdef MemSEM < handle
-    
+%  Author: Christian Song, June 2023, song.christian.y(at)gmail(dot)com
     properties
         theta
         

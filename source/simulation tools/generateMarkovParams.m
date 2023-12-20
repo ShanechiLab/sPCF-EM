@@ -1,5 +1,5 @@
 function [sTran,sInit] = generateMarkovParams(pStay,dimSt)
-
+%  Author: Christian Song, June 2023, song.christian.y(at)gmail(dot)com
     if dimSt <= 1
         if dimSt < 1
             error('dimSt must be greater than 0');

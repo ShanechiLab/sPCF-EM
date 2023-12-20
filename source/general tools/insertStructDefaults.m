@@ -1,4 +1,6 @@
 function prmS = insertStructDefaults(prmS,fields,defaults,filename)
+% Insert default values of fields into struct
+%  Author: Christian Song, June 2023, song.christian.y(at)gmail(dot)com
     if isempty(prmS)
         prmS = struct;
     end

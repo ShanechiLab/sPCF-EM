@@ -1,5 +1,5 @@
 function hitRate = calcStAccuracy(PStEst,stTrue)
-
+%  Author: Christian Song, June 2023, song.christian.y(at)gmail(dot)com
     if size(stTrue,1) > size(stTrue,2)
         stTrue = stTrue';
     end
